@@ -1,0 +1,38 @@
+h1{
+    font-size: 36px;
+    font-weight: 100;
+  
+}
+h3{
+    font-size: 24px;
+    font-weight: 100;
+
+}
+
+p{
+    font-weight: 100; 
+}
+#services img{
+    margin-top: -70px;
+}
+
+#services .card{
+    border-radius:0px;
+    box-shadow: 5px 5px 15px #485449;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    background-color: #c0c8bd;
+    
+}
+
+#services .card:hover{
+    background-color: #e3e5d8;
+    color: #485449;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 15px #485449;
+
+
+}
+
