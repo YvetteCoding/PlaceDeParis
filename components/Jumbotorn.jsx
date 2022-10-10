@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect"
-import Button from "./Button";
+import MyButton from "./MyButton";
 
 export default function () {
   return (
@@ -28,7 +28,7 @@ export default function () {
             }}
           /></h1>
           {/* <p class="lead pb-5">Hair Expirience Like No Other!</p> */}
-          <Button
+          <MyButton
             buttonConntent="BOOK NOW"
             backgroundColor="#485449"
             color="#c0c8bd;"
