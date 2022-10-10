@@ -9,10 +9,7 @@ import Footer from '../components/Footer'
 
 
 
-
-
 export default function Home() {
-
 
 
   const ourServices = [{
@@ -48,10 +45,12 @@ export default function Home() {
       </Head>
 
       <Nav />
+      </div> 
 
       <img className="img-fluid mx-auto d-block pb-5" alt="Responsive image" src="Logo_placeDeParis.png"></img>
 
-      <div className="container main text-center">
+      {/* d-none d-sm-block ? not-dispaly img on phone screen?*/}
+      <div className="container-fluid main text-center mt-auto px-0 ">
         <Jumbotorn />
 
       </div>
@@ -59,22 +58,20 @@ export default function Home() {
         <div className="container pt-5 text-center">
           <div className="row justify-content-center g-5 pt-5">
 
-            {ourServices.map(function (el) {
+            {ourServices.map(function (card) {
               return (
-
                 <ServiceCard
-                  image={el.image}
-                  description={el.description}
-                  title={el.title}
-                  slogan={el.slogan}
+                  image={card.image}
+                  description={card.description}
+                  title={card.title}
+                  slogan={card.slogan}
                 />
-
               );
             })}
           </div>
         </div>
       </section>
-    </div> 
+  
     
     
     <Footer/>

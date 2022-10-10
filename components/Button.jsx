@@ -16,7 +16,7 @@ export default function (props) {
                 font-weight: 100;           
                 transition: all 0.2s ease-in-out;
                 cursor: pointer;
-                display: inline-block;
+              
                 text-decoration: none;
               }
               a:hover {

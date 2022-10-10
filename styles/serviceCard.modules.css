@@ -14,6 +14,7 @@ p{
 }
 #services img{
     margin-top: -70px;
+    align-self: center;
 }
 
 #services .card{
