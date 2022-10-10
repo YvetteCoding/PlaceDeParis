@@ -9,7 +9,7 @@ export default function (props) {
             a {
                 padding: 14px 22px;
                 background-color: ${props.backgroundColor};
-                border: solid 0.5px #ecede8;
+                border: solid 0.1px #485449;
                 color: ${props.color};
                 border-radius: 28px;
                 font-size: 18px;

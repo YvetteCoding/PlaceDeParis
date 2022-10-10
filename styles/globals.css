@@ -11,12 +11,11 @@ body {
 
 .jumbotron-fluid {
   padding-top: 70px;
-  background-image: url('https://www.placedeparis.lu/wp-content/uploads/2016/09/subheader-2.jpg');
+  background-image: url('https://kevinmurphy.com.au/wp-content/uploads/2021/07/2000x1500_DigitalLookBook_Crops_SCALP.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   height: 400px;
-
 }
 
 .nav-link {
@@ -26,12 +25,12 @@ body {
 }
 
 .display-4 {
-  font-weight: 100;
-  color: #ecede8;
+  font-weight: 300;
+  color: #485449;
 }
 .lead {
   font-weight: 100;
-  color: #ecede8;
+  color: #485449;
 }
 
 footer {
@@ -51,4 +50,37 @@ footer {
 }
 
 
+h1{
+    font-size: 36px;
+    font-weight: 100;
+  
+}
+h3{
+    font-size: 24px;
+    font-weight: 100;
+
+}
+
+p{
+    font-weight: 100; 
+}
+
+
+.my-card{
+    border-radius:0px;
+    box-shadow: 5px 5px 15px #485449;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    background-color: #c0c8bd;
+    
+}
+
+.my-card:hover{
+    background-color: #e3e5d8;
+    color: #485449;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 15px #485449;
+}
 

@@ -8,7 +8,7 @@ export default function () {
       <div class="jumbotron jumbotron-fluid ">
         <div class="container ">
 
-          <h1 class="display-4"><Typewriter
+          <h1 class="display-4 pb-5"><Typewriter
             onInit={(typewriter) => {
               typewriter.typeString('Welcom to world of Beauty!')
                 .callFunction(() => {
@@ -27,11 +27,11 @@ export default function () {
 
             }}
           /></h1>
-          <p class="lead pb-5">Hair Expirience Like No Other!</p>
+          {/* <p class="lead pb-5">Hair Expirience Like No Other!</p> */}
           <Button
             buttonConntent="BOOK NOW"
-            backgroundColor="transparent"
-            color="#ecede8"
+            backgroundColor="#485449"
+            color="#c0c8bd;"
           />
         </div>
 
