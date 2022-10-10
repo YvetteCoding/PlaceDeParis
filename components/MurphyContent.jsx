@@ -1,4 +1,4 @@
-import Button from "./Button";
+import MyButton from "./MyButton";
 
 export default function (props) {
     return (
@@ -11,7 +11,7 @@ export default function (props) {
                         <p class="card-text">{props.description}</p>
                         <div className="d-flex flex-row justify-content-center mt-auto">
                             <div className="p-4">
-                                <Button
+                                <MyButton
                                     buttonConntent="discover"
                                     backgroundColor="transparent"
                                     color="#485449"
