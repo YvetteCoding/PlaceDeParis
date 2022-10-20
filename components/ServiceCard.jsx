@@ -16,9 +16,11 @@ export default function (props) {
                     <div className="d-flex flex-row justify-content-center mt-auto">
                         <div className="p-4">
                             <MyButton
+                                href="/pricelist"
                                 buttonConntent="discover"
                                 backgroundColor="transparent"
                                 color="#485449"
+                                
                             />
                         </div>
                     </div>

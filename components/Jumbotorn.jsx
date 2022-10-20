@@ -29,9 +29,12 @@ export default function () {
           /></h1>
           {/* <p class="lead pb-5">Hair Expirience Like No Other!</p> */}
           <MyButton
+            href="/book"
             buttonConntent="BOOK NOW"
             backgroundColor="#485449"
             color="#c0c8bd;"
+
+
           />
         </div>
 

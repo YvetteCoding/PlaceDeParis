@@ -1,11 +1,18 @@
-export default function (props) {
+export default function Button (props) {
 
-    return (
+  return (
 
-        <>
-            <a>{props.buttonConntent}</a>
+    <>
 
-            <style jsx>{`
+<a href={props.href}> {props.buttonConntent} </a>
+
+    
+ 
+
+
+
+
+      <style jsx>{`
             a {
                 padding: 14px 22px;
                 background-color: ${props.backgroundColor};
@@ -27,10 +34,10 @@ export default function (props) {
               }
             
             `}
-            </style>
+      </style>
 
 
 
-        </>
-    )
+    </>
+  )
 }
