@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Jumbotorn from '../components/Jumbotorn'
-import Nav from '../components/Nav'
+import NavBarHolder from '../components/NavBarHolder'
 import Footer from '../components/Footer'
 import MurphyContent from '../components/MurphyContent'
 
@@ -26,12 +26,7 @@ export default function Home() {
     description: "met consectetur adipisicing elit. Doloremque quos quas quaerat",
 
   },
-  {
-    image: "KEVIN.MURPHY_MEDRES.jpg",
-    title: "COLOR ME",
-    description: "met consectetur adipisicing elit. Doloremque quos quas quaerat",
 
-  },
   ]
 
 
@@ -48,10 +43,10 @@ export default function Home() {
           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
         </Head>
 
-        <Nav />
+        <NavBarHolder />
       </div>
 
-      <img className="img-fluid mx-auto d-block pb-5" alt="Responsive image" src="Logo_placeDeParis.png"></img>
+      <img className="img-fluid logo mx-auto d-block pb-5" alt="Responsive image" src="Logo_placeDeParis.png"></img>
 
       {/* d-none d-sm-block ?not-dispaly img on phone screen*/}
       <div className="container-fluid main text-center mt-auto px-0 ">

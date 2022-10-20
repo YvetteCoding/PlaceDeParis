@@ -21,12 +21,7 @@ export default function (props) {
                     </div>
                 </div>
             </div>
-            <style jsx>
-
-{`
-
-`}
-</style>
+            
         </>
     )
 }
